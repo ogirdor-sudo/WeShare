@@ -7,7 +7,7 @@ import {
   IonGrid,
   IonRow,
   IonCol,
-  IonButton, IonImg
+  IonButton, IonImg, IonIcon, IonMenuToggle, IonMenu, IonButtons, IonMenuButton
 } from '@ionic/angular/standalone';
 
 @Component({
@@ -15,7 +15,7 @@ import {
   templateUrl: 'home.page.html',
   styleUrls: ['home.page.scss'],
   standalone: true,
-  imports: [IonHeader, IonToolbar, IonTitle, IonContent, IonGrid, IonRow, IonCol, IonButton, IonImg],
+  imports: [IonHeader, IonToolbar, IonTitle, IonContent, IonGrid, IonRow, IonCol, IonButton, IonImg, IonIcon, IonMenuToggle, IonMenu, IonButtons, IonMenuButton],
 })
 export class HomePage {
   constructor() {}
